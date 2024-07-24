@@ -54,7 +54,9 @@ void StudentRecords::add_grade(int sid, int cid, char grade){
     grades.push_back(Grade(sid, cid, grade));
 }
 
-float StudentRecords::get_num_grade(char letter) const{}
+float StudentRecords::get_num_grade(char letter) const{
+    
+}
 
 std::string StudentRecords::get_student_name(int sid) const{}
 

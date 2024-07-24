@@ -14,7 +14,7 @@ int main(){
         // jeżeli warunek jest jednoliniowy to nie musi być {}
         cout << "Warning: a is over 1000." << endl;
 
-    if (a % 2) // nie musimy waruku porównywać z 0 bo w c++ 0 to fałsz
+    if (a % 2) // nie musimy warunku porównywać z 0 bo w c++ 0 to fałsz
     // ten zapis jest równy z ((a % 2) == 0)
         cout << "a is odd" << endl;
     else
