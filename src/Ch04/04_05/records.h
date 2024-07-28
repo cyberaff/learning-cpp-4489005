@@ -2,6 +2,7 @@
 
 #include <string>
 
+/**class to create a student object takes student id and student name */
 class Student{
 private:
     int id;
@@ -12,7 +13,7 @@ public:
     int get_id() const;
     std::string get_name() const;
 };
-
+/**class to create an object of course takes course id, course name and credits for a course*/
 class Course{
 private:
     int id;
@@ -25,7 +26,7 @@ public:
     std::string get_name() const;
     int get_credits() const;
 };
-
+/**class to create a grade object takes student id, course id and grade as a letter */
 class Grade{
 private:
     int student_id;
